@@ -1,0 +1,22 @@
+{
+  "name": "personalproject",
+  "version": "1.0.0",
+  "description": "Vicky's project",
+  "main": "index.js",
+  "dependencies": {
+    "git": "^0.1.5"
+  },
+  "devDependencies": {
+    "cypress": "^7.6.0",
+    "cypress-cucumber-preprocessor": "2.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "author": "vicky",
+  "license": "ISC",
+  "cypress-cucumber-processor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
